@@ -1,0 +1,24 @@
+{
+  "project_name": "demo",
+  "ckpt_path": "/cluster/home/yushun/scmodel/CellPatch/data/CellPatch_50ep.pth",
+  "ckpt_config": "/cluster/home/yushun/scmodel/CellPatch/data/CellPatch_50ep_args.json",
+  "gene2id_dict": "/cluster/home/yushun/scmodel/CellPatch/data/gene2tok.json",
+  "epoch": 100,
+  "batch_size": 256,
+  "lr": 0.001,
+  "weight_decay": 0.0005,
+  "log_transform": false,
+  "balance": false,
+  "clip": 5,
+  "long": true,
+  "dropout": 0.0,
+  "device": "cuda",
+  "save_dir": "./models",
+  "seed": 0,
+  "print_every": 100,
+  "save_each_iters": 1000000000.0,
+  "project_out": false,
+  "device_num": [
+    0
+  ]
+}
