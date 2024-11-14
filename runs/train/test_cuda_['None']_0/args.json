@@ -1,13 +1,13 @@
 {
     "config_path": null,
     "project_name": "test_cuda_['None']_0",
-    "ckpt_path": "/cluster/home/yushun/scmodel/CellPatch/data/CellPatch_50ep.pth",
+    "ckpt_path": "./data/CellPatch_50ep.pth",
     "load_optimizer": true,
     "epoch": 100,
     "save_each_iters": 100000,
     "print_every": 100,
-    "gene2id_json_path": "/cluster/home/yushun/scmodel/CellPatch/data/gene2tok.json",
-    "data_path": "/cluster/home/yushun/scmodel/CellPatch/data/scbert_preprocessed_data.h5ad",
+    "gene2id_json_path": "./data/gene2tok.json",
+    "data_path": "./data/scbert_preprocessed_data.h5ad",
     "batch_size": 256,
     "mask_rate": 0.3,
     "log_transform": false,
@@ -42,8 +42,8 @@
         "None"
     ],
     "seed": 0,
-    "ROOT_DIR": "/cluster/home/yushun/scmodel/CellPatch/runs/train/",
-    "PROJECT_DIR": "/cluster/home/yushun/scmodel/CellPatch/runs/train/test_cuda_['None']_0",
-    "LOG_DIR": "/cluster/home/yushun/scmodel/CellPatch/runs/train/test_cuda_['None']_0/log.txt",
+    "ROOT_DIR": "./runs/train/",
+    "PROJECT_DIR": "./runs/train/test_cuda_['None']_0",
+    "LOG_DIR": "./runs/train/test_cuda_['None']_0/log.txt",
     "num_class": 11
 }

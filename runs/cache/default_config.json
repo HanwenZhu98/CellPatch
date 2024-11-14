@@ -1,8 +1,8 @@
 {
   "project_name": "demo",
-  "ckpt_path": "/cluster/home/yushun/scmodel/CellPatch/data/CellPatch_50ep.pth",
-  "ckpt_config": "/cluster/home/yushun/scmodel/CellPatch/data/CellPatch_50ep_args.json",
-  "gene2id_dict": "/cluster/home/yushun/scmodel/CellPatch/data/gene2tok.json",
+  "ckpt_path": "./data/CellPatch_50ep.pth",
+  "ckpt_config": "./data/CellPatch_50ep_args.json",
+  "gene2id_dict": "./data/gene2tok.json",
   "epoch": 100,
   "batch_size": 256,
   "lr": 0.001,

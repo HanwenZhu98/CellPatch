@@ -21,7 +21,7 @@ parser.add_argument("--config_path", type = str, default = None, help = 'config 
 
 #- project configs
 parser.add_argument("--project_name", type = str, default = 'demo', help = 'project name')
-parser.add_argument("--ckpt_path", type = str, default = '/cluster/home/yushun/scmodel/CellPatch/data/CellPatch_50ep.pth', help = 'checkpoint path')
+parser.add_argument("--ckpt_path", type = str, default = './data/CellPatch_50ep.pth', help = 'checkpoint path')
 # parser.add_argument("--ckpt_path", type = str, default = None, help = 'checkpoint path')
 parser.add_argument("--load_optimizer", type = bool, default = True, help = 'load optimizer from ckpt')
 
@@ -31,8 +31,8 @@ parser.add_argument("--save_each_iters", type = int, default = 100000, help = 's
 parser.add_argument("--print_every", type = int, default = 100, help = 'print log each iters')
 
 #- data configs
-parser.add_argument("--gene2id_json_path", type = str, default ='/cluster/home/yushun/scmodel/CellPatch/data/gene2tok.json', help = 'json file path storing gene to index pairs')
-parser.add_argument("--data_path", type=str, default='/cluster/home/yushun/scmodel/CellPatch/data/scbert_preprocessed_data.h5ad',help='Path of data for pretrain.')
+parser.add_argument("--gene2id_json_path", type = str, default ='./data/gene2tok.json', help = 'json file path storing gene to index pairs')
+parser.add_argument("--data_path", type=str, default='./data/scbert_preprocessed_data.h5ad',help='Path of data for pretrain.')
 parser.add_argument("--batch_size",type = int, default = 256,help = 'batch size of data loader')
 parser.add_argument("--mask_rate", type = float, default = 0.3, help = 'mask rate of single cell non zero values')
 parser.add_argument("--log_transform", type = bool, default = False, help = 'log transform count data')
