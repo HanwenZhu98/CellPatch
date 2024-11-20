@@ -4,7 +4,15 @@ CellPatch addresses the sequence length limitations that commonly constrain foun
 Sample data and checkpoints are provided in the data folder. For additional training datasets, please refer to the data availability section in our paper.
 # Time cost
 Under test conditions using an NVIDIA A100 80GB GPU, CellPatch demonstrates remarkable efficiency. For example, in cell annotation tasks, the model can process 1,000 cells in approximately 2 seconds during inference.
-![image](https://github.com/user-attachments/assets/a298ef99-abd8-4312-b965-74e7b4cef21e)
+
+![资源 1@4x-100](https://github.com/user-attachments/assets/64598f08-24e2-4d1b-9605-5c9c7756c6d2)
+
+# To do List
+- [x] Pretrain code & Weight
+- [x] Annotation demo
+- [ ] Module Transfer demo
+- [ ] Quick Integration API
+  
 # Disclaimer
 This tool is intended for research purposes only and has not been approved for clinical use.
 # Copyright
