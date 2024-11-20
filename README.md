@@ -6,6 +6,14 @@ Sample data and checkpoints are provided in the data folder. For additional trai
 Under test conditions using an NVIDIA A100 80GB GPU, CellPatch demonstrates remarkable efficiency. For example, in cell annotation tasks, the model can process 1,000 cells in approximately 2 seconds during inference.
 
 ![资源 1@4x-100](https://github.com/user-attachments/assets/64598f08-24e2-4d1b-9605-5c9c7756c6d2)
+# Demo on Colab
+Experience CellPatch directly in your browser! Follow these simple steps:
+1. Open Google Colab: https://colab.research.google.com/
+2. Access our notebook: Navigate to GitHub tab and enter : https://github.com/HanwenZhu98/CellPatch/blob/master/finetune_simple_tune.ipynb
+3. Enable GPU: Select Runtime > Change runtime type > GPU
+4. Setup Environment: Clone our GitHub repository and install required packages
+5. Run the Model: Choose between fine-tuning(run all pipeline) or using our pre-trained weights for testing(just skip trainning)
+6. Get Results: View and analyze your outputs!
 
 # To do List
 - [x] Pretrain code & Weight
